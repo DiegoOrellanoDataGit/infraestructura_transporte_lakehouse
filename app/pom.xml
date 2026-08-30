@@ -1,0 +1,22 @@
+<dependencies>
+  <!-- Flink core -->
+  <dependency>
+    <groupId>org.apache.flink</groupId>
+    <artifactId>flink-streaming-java</artifactId>
+    <version>1.17.0</version>
+  </dependency>
+
+  <!-- Iceberg Flink connector -->
+  <dependency>
+    <groupId>org.apache.iceberg</groupId>
+    <artifactId>iceberg-flink-runtime</artifactId>
+    <version>1.5.0</version>
+  </dependency>
+
+  <!-- AWS Glue catalog -->
+  <dependency>
+    <groupId>org.apache.iceberg</groupId>
+    <artifactId>iceberg-aws</artifactId>
+    <version>1.5.0</version>
+  </dependency>
+</dependencies>
